@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require_tree ./bootstrap
+//= require_tree ./prettyPhoto
+//= require_tree ./js

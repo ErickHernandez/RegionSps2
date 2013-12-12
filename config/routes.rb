@@ -1,4 +1,8 @@
 Regionsps2::Application.routes.draw do
+ 
+  root :to => 'home#index'
+  match '/calendar' => 'home#calendar', as: 'calendar'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
